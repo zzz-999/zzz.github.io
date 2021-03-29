@@ -1,0 +1,310 @@
+<!-- 构建一个所谓的单页应用SPA(Single Page App), 即内容都在一个页面, 不会发生跳转。-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>我的网页</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- start your project here -->
+    <!--Main Navigation-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#examples">Examples</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#links">links</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible content -->
+
+            </div>
+
+        </nav>
+        <!--/.Navbar-->
+        <div id="intro" class="view">
+
+            <div class="mask rgba-black-strong">
+                <!-- 添加了.container-fluid 容器以利用栅格进行布局 -->
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                    <!-- 新添加的 div, 表示栅格中的行 -->
+                    <div class="row d-flex justify-content-center text-center">
+                        <!-- 新添加的 div, 表示栅格中的列 -->
+                        <div class="col-md-10">
+                            <!-- Description -->
+
+                            <h2 class="h2-responsive white-text"><i class="fas fa-quote-left" aria-hidden="true"></i>
+                                放弃很容易，可坚持一定很酷 <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--/.Mask-->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <hr class="my-5">
+
+
+        <div class="container">
+            <!--Section: Examples-->
+            <section id="examples" class="text-center">
+                <h2 class="mb-5 font-weight-bold ">常用网页推荐</h2>
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img src="img/bilibili.jpg" class="card-img-top" alt="">
+                                <a href="https://www.bilibili.com/">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">哔哩哔哩</h4>
+                                <!--Text-->
+                                <p class="card-text">强大的视频社区，<br>对于大学生来说是一个学习的天堂</p>
+                                <a href="https://www.bilibili.com/" class="btn btn-primary">去看看</a>
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img src="img/csdn.jfif" class="card-img-top" alt="">
+                                <a href="https://www.csdn.net/">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">CSDN</h4>
+                                <!--Text-->
+                                <p class="card-text">CSDN开发者平台<br>
+                                    专业开发者社区<br>
+                                    成就一亿技术人</p>
+                                <a href="https://www.csdn.net/" class="btn btn-primary">去看看</a>
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img src="img/zhihu.jpg" class="card-img-top" alt="">
+                                <a href="https://www.zhihu.com/">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">知乎</h4>
+                                <!--Text-->
+                                <p class="card-text">一个真实的网络问答社区<br>帮助你寻找答案<br>分享知识</p>
+                                <a href="https://www.zhihu.com/" class="btn btn-primary">去看看</a>
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+                </div>
+        </div>
+        <!--Grid row-->
+        </section>
+        </div>
+        <!--Main container-->
+
+        <hr class="my-5">
+
+
+
+
+        </div>
+        <!--Section: call to action-->
+        <div class="streak streak-md streak-photo"
+            style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img(115).jpg')">
+            <div class="flex-center white-text rgba-black-light pattern-1">
+                <ul class="mb-0 list-unstyled">
+                    <li>
+                        <h2 class="h2-responsive"><i class="fas fa-quote-left" aria-hidden="true"></i>
+                            我们登上的并非我们所选择的舞台，演出并非我们所选择的剧本 <i class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                    </li>
+                    <li class="mb-0">
+                        <h5 class="text-center font-italic mb-0">~ 爱比克泰德</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Section: call to action-->
+    </main>
+    <!--Main layout-->
+
+    <!-- Footer -->
+    <footer id="links" class="page-footer unique-color-dark pt-4 mt-4">
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-left text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4 text-center">
+                    <h5>学习——永远不晚。</h5>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>学习网站链接</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="https://www.zhihuishu.com/" target="_blank">智慧树</a>
+                    </p>
+                    <p>
+                        <a href="http://i.mooc.chaoxing.com/space/index.shtml" target="_blank">超星学习通</a>
+                    </p>
+                    <p>
+                        <a href="http://jwgl.cqjtu.edu.cn/jsxsd/" target="_blank">重庆交通大学教务网</a>
+                    </p>
+                    <p>
+                        <a href="https://www.csdn.net/" target="_blank">CSDN</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>友情链接</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a>
+                    </p>
+                    <p>
+                        <a href="https://www.zhihu.com/" target="_blank">知乎</a>
+                    </p>
+                </div>
+                <!--/.Third column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- end your project here -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+
+</body>
+
+</html>
